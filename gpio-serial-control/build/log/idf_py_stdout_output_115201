@@ -1,0 +1,17 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/david/esp/esp-learning/gpio-serial-control/build/bootloader/esp-idf/esptool_py && /home/david/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/david/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/david/esp/esp-learning/gpio-serial-control/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/gpio-serial-control.c.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable gpio-serial-control.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.11.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/david/esp/esp-learning/gpio-serial-control/build/gpio-serial-control.bin
+[9/9] cd /home/david/esp/esp-learning/gpio-serial-control/build/esp-idf/esptool_py && /home/david/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/david/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/david/esp/esp-learning/gpio-serial-control/build/partition_table/partition-table.bin /home/david/esp/esp-learning/gpio-serial-control/build/gpio-serial-control.bin
+gpio-serial-control.bin binary size 0x30980 bytes. Smallest app partition is 0x100000 bytes. 0xcf680 bytes (81%) free.

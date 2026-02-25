@@ -3,9 +3,10 @@
 | Project | Concepts | Status |
 |---------|----------|--------|
 | blink | GPIO, FreeRTOS delays | Complete |
-```
 
+```
 Add a row every time you start a new project. Then commit it all:
+```
 ```
 cd ~/esp/esp-learning
 git add .
