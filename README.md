@@ -40,7 +40,7 @@ idf.py menuconfig     # open project configuration menu
 ## Learning Roadmap
 
 ### Stage 1 — Core ESP-IDF Fundamentals
-- [ ] Blink (GPIO output)
+- [ x ] Blink (GPIO output)
 - [ ] GPIO serial control (UART input/output)
 - [ ] Button input with debounce (GPIO input) *requires button*
 - [ ] PWM LED brightness control (onboard LED)
