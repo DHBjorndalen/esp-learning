@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "gpio-serial-control",
-    "project_version":    "3274f82-dirty",
+    "project_version":    "2d03dd3-dirty",
     "project_path":       "/home/david/esp/esp-learning/gpio-serial-control",
     "idf_path":           "/home/david/esp/esp-idf",
     "build_dir":          "/home/david/esp/esp-learning/gpio-serial-control/build",
