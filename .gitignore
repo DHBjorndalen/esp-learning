@@ -1,0 +1,13 @@
+# ESP-IDF build outputs
+**/build/
+**/.cache/
+
+# VS Code
+.vscode/
+
+# ESP-IDF config
+**/sdkconfig.old
+
+# Python
+__pycache__/
+*.pyc
