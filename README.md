@@ -4,13 +4,11 @@
 |---------|----------|--------|
 | blink | GPIO, FreeRTOS delays | Complete |
 
-```
-Add a row every time you start a new project. Then commit it all:
-```
+
 ```
 cd ~/esp/esp-learning
 git add .
-git commit -m "add README files for blink project"
+git commit -m "commit msg"
 git push
 
 ### New project setup
